@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		C1928598294669B500675787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1928597294669B500675787 /* AppDelegate.swift */; };
 		C192859A294669B500675787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1928599294669B500675787 /* SceneDelegate.swift */; };
-		C192859C294669B500675787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192859B294669B500675787 /* ViewController.swift */; };
 		C192859F294669B500675787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C192859D294669B500675787 /* Main.storyboard */; };
 		C19285A2294669B500675787 /* ShoppingCart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C19285A0294669B500675787 /* ShoppingCart.xcdatamodeld */; };
-		C19285A4294669B700675787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19285A3294669B700675787 /* Assets.xcassets */; };
 		C19285A7294669B700675787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19285A5294669B700675787 /* LaunchScreen.storyboard */; };
 		C19285B2294669B700675787 /* ShoppingCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19285B1294669B700675787 /* ShoppingCartTests.swift */; };
 		C19285BC294669B700675787 /* ShoppingCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19285BB294669B700675787 /* ShoppingCartUITests.swift */; };
 		C19285BE294669B700675787 /* ShoppingCartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19285BD294669B700675787 /* ShoppingCartUITestsLaunchTests.swift */; };
+		C19285D02946930600675787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19285CF2946930600675787 /* Assets.xcassets */; };
+		C19285D22946951E00675787 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19285D12946951E00675787 /* viewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,8 @@
 		C1928594294669B500675787 /* ShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1928597294669B500675787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1928599294669B500675787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C192859B294669B500675787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C192859E294669B500675787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C19285A1294669B500675787 /* ShoppingCart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingCart.xcdatamodel; sourceTree = "<group>"; };
-		C19285A3294669B700675787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C19285A6294669B700675787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C19285A8294669B700675787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C19285AD294669B700675787 /* ShoppingCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +49,8 @@
 		C19285B7294669B700675787 /* ShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19285BB294669B700675787 /* ShoppingCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITests.swift; sourceTree = "<group>"; };
 		C19285BD294669B700675787 /* ShoppingCartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C19285CF2946930600675787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19285D12946951E00675787 /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				C1928597294669B500675787 /* AppDelegate.swift */,
+				C19285CF2946930600675787 /* Assets.xcassets */,
 				C1928599294669B500675787 /* SceneDelegate.swift */,
-				C192859B294669B500675787 /* ViewController.swift */,
+				C19285D12946951E00675787 /* viewController.swift */,
 				C192859D294669B500675787 /* Main.storyboard */,
-				C19285A3294669B700675787 /* Assets.xcassets */,
 				C19285A5294669B700675787 /* LaunchScreen.storyboard */,
 				C19285A8294669B700675787 /* Info.plist */,
 				C19285A0294669B500675787 /* ShoppingCart.xcdatamodeld */,
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C19285A7294669B700675787 /* LaunchScreen.storyboard in Resources */,
-				C19285A4294669B700675787 /* Assets.xcassets in Resources */,
+				C19285D02946930600675787 /* Assets.xcassets in Resources */,
 				C192859F294669B500675787 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C192859C294669B500675787 /* ViewController.swift in Sources */,
 				C1928598294669B500675787 /* AppDelegate.swift in Sources */,
 				C192859A294669B500675787 /* SceneDelegate.swift in Sources */,
+				C19285D22946951E00675787 /* viewController.swift in Sources */,
 				C19285A2294669B500675787 /* ShoppingCart.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
